@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "appId": "a35140f8-f962-4404-9eec-147a4ab61ce5",
+  "appDisplayName": "翻訳アプリ",
+  "region": "prod",
+  "environmentId": "17423f17-edb6-e0b7-b168-1b149c4b4509",
+  "description": " ",
+  "buildPath": "./dist",
+  "buildEntryPoint": "index.html",
+  "localAppUrl": "http://localhost:3000",
+  "logoPath": "Default",
+  "connectionReferences": {
+    "74393ce2-a0bc-4b2f-bb0c-7cbed2d255d2": {
+      "id": "/providers/Microsoft.PowerApps/apis/shared_translatorv2",
+      "displayName": "Microsoft Translator V2",
+      "dataSources": [
+        "translatorv2"
+      ],
+      "sharedConnectionId": "/providers/Microsoft.PowerApps/apis/shared_translatorv2/connections/6a48c8c0d7b343468fef5d4931584f9e",
+      "dataSets": {}
+    }
+  },
+  "databaseReferences": {}
+}
